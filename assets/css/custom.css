@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin-bottom: 60px;
+}
+.footer {
+    background-color: #f5f5f5;
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    width: auto;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+.header-bar {
+    background: #222222 none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 12px 0;
+    width: 100%;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li {
+    float: left;
+    list-style: outside none none;
+}
+.main-menu ul li a {
+    color: #82807d;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+.site-logo img {
+    width: 100%;
+}
+.site-logo {
+    position: absolute;
+}
+.main-menu {
+    margin-left: 10%;
+    position: relative;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+.buy_hdw {
+    background: url(../images/main_menu_title.png) no-repeat scroll -12px -1px !important;
+    position: absolute;
+    top: 24px;
+    width: 256px !important;
+}
+.sub_nav {
+    background-position: -398px -372px !important;
+    color: #004600 !important;
+    line-height: 27px !important;
+    padding: 7px !important;
+    width: auto;
+}
+.sub_nav a {
+    background: none repeat scroll 0 0;
+    display: inline-block;
+    line-height: 20px !important;
+    margin-top: 50px;
+    padding: 0 7px !important;
+}
+@media (min-width: 992px) and (max-width: 1120px) {
+}
+@media (max-width: 767px) {
+.site-logo img {
+    height: 100px;
+    position: relative;
+    width: 100px;
+}
+}
+@media (max-width: 480px) {
+.site-logo img {
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+.main-menu ul li {
+    float: left;
+    list-style: outside none none;
+    width: 100%;
+}
+.main-menu ul li a {
+    color: #82807d;
+    float: left;
+    font-size: 16px;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
+.main-menu {
+    margin-left: 0;
+}
+.logout {
+    text-align: left;
+    width: 100%;
+}
+.site-logo {
+    position: relative;
+    text-align: left;
+}
+}

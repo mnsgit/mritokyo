@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.login-username {
+    background-image: url(icons/icol16/src/user.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+	padding-left: 30px;
+}
+.login-password {
+    background-image: url(icons/icol16/src/key.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+	padding-left: 30px;
+}
+.sidebar {
+    margin-top: 70px;
+}
+.navbar{
+	min-height:70px;
+}
+.navbar-brand {
+    padding: 0;
+}
+.sidebar ul li a.active {
+    background-color: #66a300;
+    color: #fff;
+}
+.nav>li>a{
+    text-decoration: none;
+	color: #000;
+}
+.nav>li>a:focus, .nav>li>a:hover , .dropdown-menu>li>a:hover {
+    text-decoration: none;
+    background-color: #66a300;
+	color: #fff;
+}
+.h1, h1 {
+    font-size: 28px;
+}
