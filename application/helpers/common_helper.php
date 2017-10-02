@@ -32,3 +32,12 @@ function get_all_makers(){
     $CI->load->model('maker_model');
     return $CI->maker_model->get_all();
 }
+
+
+function get_all_brands(){
+
+    $CI = get_instance();
+    $CI->load->model('brand_model');
+    return $CI->brand_model->get_all();
+}
+

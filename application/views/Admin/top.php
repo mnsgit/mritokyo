@@ -68,6 +68,9 @@
                                 <li>
                                     <a href="<?php echo base_url()?>admin/brand" <?php if($cpage == "brand") echo 'class="active"';?> ><i class="fa fa-list fa-fw"></i>Brand</a>
                                 </li>
+                                <li>
+                                    <a href="<?php echo base_url()?>admin/model" <?php if($cpage == "model") echo 'class="active"';?> ><i class="fa fa-list fa-fw"></i>Model</a>
+                                </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
